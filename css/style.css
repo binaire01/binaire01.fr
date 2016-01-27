@@ -11,17 +11,6 @@ i.pastille{
 }
 
  
-#footer{
-	background-color: rgba(200, 200, 200, 0.7);
-	color: rgb(30,30,30);
-	padding:60px 0px;
-	border-bottom: none;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-
-}
-
-
 .social a {
 	font-size: 20px;
 }
@@ -83,6 +72,19 @@ i.pastille{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+#footer{
+	background-color: rgba(200, 200, 200, 0.7);
+	color: rgb(30,30,30);
+	padding:60px 0px;
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
 #wjw-heart p{
 	text-align: right;
+}
+
+.fa-heart{
+	color: rgb(232, 12, 122);
 }
