@@ -14,8 +14,11 @@ i.pastille{
 #footer{
 	background-color: rgba(200, 200, 200, 0.7);
 	color: rgb(30,30,30);
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding:60px 0px;
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+
 }
 
 
@@ -78,4 +81,8 @@ i.pastille{
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+#wjw-heart p{
+	text-align: right;
 }
