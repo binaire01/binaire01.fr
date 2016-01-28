@@ -7,7 +7,7 @@
 
     <title>BINAIRE 01 | Solutions Web, Print & Informatique </title>
 	
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
     
     <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web:400,300,700|Open+Sans:400,800,300|Lora:400,700' rel='stylesheet' type='text/css'>
@@ -68,8 +68,48 @@
 		<h2>Etude et Devis gratuits</h2>
 
 		<!-- Single button -->
-		<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contactez nous maintenant</button>
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" aria-haspopup="true" aria-expanded="false" data-target="#myModal">Contactez nous maintenant</button>
 	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Une question ? Besoin d'un devis gratuit ?</h4>
+      </div>
+      <div class="modal-body">
+        <div id="wufoo-q8j0n0m1a7jvzs">
+Fill out my <a href="https://binaire01.wufoo.com/forms/q8j0n0m1a7jvzs">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Use <a href="http://www.wufoo.com/gallery/templates/">Wufoo templates</a> to make your own HTML forms.</div>
+<script type="text/javascript">var q8j0n0m1a7jvzs;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'binaire01',
+'formHash':'q8j0n0m1a7jvzs',
+'autoResize':true,
+'height':'640',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { q8j0n0m1a7jvzs = new WufooForm();q8j0n0m1a7jvzs.initialize(options);q8j0n0m1a7jvzs.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="spacer"></div>
 	<div class="container text-center">
@@ -113,29 +153,33 @@
 <div id="footer">
 <div class="container">
 	<div class="row">
-		<div class="col-xs-4 col-md-6">
+		<div class="col-xs-6 col-md-3">
 			<ul class="list-inline social">
+			  
 			  <li>
 			    <a href="https://twitter.com/Binaire01" target="_blank">
 			    <i class="fa fa-twitter"></i>
 			    </a>
 			  </li>
+			  
 			  <li>
 			    <a href="https://www.facebook.com/binaire01" target="_blank">
 			    <i class="fa fa-facebook"></i>
 			    </a>
 			  </li>
+			  
 			  <li>
-			    <a href="https://www.pinterest.com/binaire01" target="_blank">
-			    <i class="fa fa-pinterest-p"></i>
+			  	<a href="https://www.pinterest.com/binaire01" target="_blank">
+			  	<i class="fa fa-pinterest"></i>
 			    </a>
 			  </li>
+
 			</ul>
 		</div>
 
-		<div class="col-xs-8 col-md-6" id="wjw-heart">
+		<div class="col-xs-6 col-md-9" id="wjw-heart">
 			<p>
-			 &copy; 2016 | • We work with <i class="fa fa-heart"></i> •
+			 &copy; 2016 • We work with <i class="fa fa-heart"></i>
 			</p>
 		</div>
 	</div>

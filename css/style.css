@@ -11,10 +11,6 @@ i.pastille{
 }
 
  
-.social a {
-	font-size: 20px;
-}
-
 #wrapper{
 	background-image: url("../images/background/background.jpg");
 	height: 600px;
@@ -79,6 +75,10 @@ i.pastille{
 	border-bottom: none;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+}
+
+.social a {
+	font-size: 20px;
 }
 
 #wjw-heart p{
