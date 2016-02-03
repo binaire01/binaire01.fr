@@ -2,14 +2,19 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
-
-h3{
-	font-size: 25px;
+h1{
+	font-size: 40px;
 	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-
+	font-weight: 700;
+	letter-spacing: 3px;
 }
 
+
+h3{
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+}
 
 i.pastille{
 	color: #1068AF;
@@ -30,8 +35,8 @@ a:hover{
 	color: black;
 }
 
-#wrapper{
-	background-image: url("../images/background/background.jpg");
+#wrapper1 {
+	background-image: url("../images/background/wrapper1.jpg");
 	height: 600px;
 	background-size:cover;
 	text-align: center;
@@ -42,12 +47,26 @@ a:hover{
 	font-family: 'Oswald', sans-serif;
 }
 
-#wrapper h1{
+#wrapper2{
+	background-image: url("../images/background/wrapper2.jpg");
+	height: 100%;
+	background-size:cover;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	color: white;
+	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+	/*font-family: 'Titillium Web', sans-serif;*/
+	font-family: 'Oswald', sans-serif;
+}
+
+
+#wrapper1 h1{
 	font-size: 50px;
 	letter-spacing: 3px;
 }
 
-#wrapper h2{
+#wrapper1 h2{
 	font-size: 30px;
 	margin-bottom: 1em;
 	letter-spacing: 3px;
@@ -58,12 +77,11 @@ a:hover{
 }
 
 .feature p{
-	font-weight: 300;
+	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Oswald', sans-serif;*/
 	font-size: 15px;
-	line-height: 23px;
-
+	line-height: 22px;
 }
 
 .feature i{
@@ -170,4 +188,21 @@ a:hover{
 	border-color: #333;
 	transform: rotate(1080deg);
 	border-radius: 50%;
+}
+
+#phone{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0, 0, 0, 0.8)
+
+}
+
+.label-primary{
+	font-weight: 400;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.titre-section{
+	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 }
