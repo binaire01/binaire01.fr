@@ -3,12 +3,18 @@ body{
 }
 
 h1{
-	font-size: 40px;
-	font-family: 'Oswald', sans-serif;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 }
 
+h2{
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	color: white;
+}
 
 h3{
 	font-size: 20px;
@@ -37,14 +43,14 @@ a:hover{
 
 #wrapper1 {
 	background-image: url("../images/background/wrapper1.jpg");
-	height: 600px;
+	height: 700px;
 	background-size:cover;
 	text-align: center;
 	padding-top: 150px;
 	color: white;
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 	/*font-family: 'Titillium Web', sans-serif;*/
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 #wrapper2{
@@ -54,22 +60,24 @@ a:hover{
 	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 75px;
-	color: white;
-	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+	color: black;
 	/*font-family: 'Titillium Web', sans-serif;*/
 	font-family: 'Oswald', sans-serif;
 }
 
+#wrapper p{
+	font-size: 10px;
+}
+
 
 #wrapper1 h1{
-	font-size: 50px;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 }
 
 #wrapper1 h2{
 	font-size: 30px;
 	margin-bottom: 1em;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 
 .spacer{
@@ -119,11 +127,19 @@ a:hover{
 	background-color: rgba(0, 0, 0, 0.8)
 }
 
+#footer1 p{
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
 #footer1 h1{
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
+	text-transform: uppercase;
 }
 
 #footer1 h1:hover{
@@ -197,12 +213,63 @@ a:hover{
 
 }
 
-.label-primary{
-	font-weight: 400;
-	font-size: 15px;
+.span1{
+	font-weight: 700;
+	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
+	background: #00AADF;
+	padding: 2px 2px 4px;
+	color: white;
 }
 
-.titre-section{
+.span2{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: #76C643;
+	padding: 2px 2px 4px;
+	color: white;
+}
+
+.span3{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: #FFC000;
+	padding: 2px 2px 4px;
+	color: white;
+}
+
+.span4{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: #FF307B;
+	padding: 2px 2px 4px;
+	color: white;
+}
+
+.span5{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: #CB52E8;
+	padding: 2px 2px 4px;
+	color: white;
+}
+
+.span6{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: #B3B3B3;
+	padding: 2px 2px 4px;
+	color: white;
+}
+
+
+.container-fluid h1{
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+	font-size: 40px;
+	text-align: center;
 }
