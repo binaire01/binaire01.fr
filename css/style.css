@@ -1,16 +1,35 @@
 body{
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
 }
+
+
+h3{
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+
+}
+
 
 i.pastille{
 	color: #1068AF;
-	font-size: 75px;
+	font-size: 60px;
 	/*	border-radius: 20px;
 	border:2px solid white;
 	padding: 10px 10px;*/
 }
 
- 
+
+a{
+	color:rgb(75,75,75);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: black;
+}
+
 #wrapper{
 	background-image: url("../images/background/background.jpg");
 	height: 600px;
@@ -25,11 +44,13 @@ i.pastille{
 
 #wrapper h1{
 	font-size: 50px;
+	letter-spacing: 3px;
 }
 
 #wrapper h2{
 	font-size: 30px;
 	margin-bottom: 1em;
+	letter-spacing: 3px;
 }
 
 .spacer{
@@ -41,10 +62,12 @@ i.pastille{
 	font-family: 'Open Sans', sans-serif;
 	/*font-family: 'Oswald', sans-serif;*/
 	font-size: 15px;
+	line-height: 23px;
+
 }
 
 .feature i{
-	margin-bottom: 1em;
+	margin-bottom: 0.3em;
 	text-align: center;
 }
 
@@ -83,6 +106,10 @@ i.pastille{
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
+}
+
+#footer1 h1:hover{
+	color: grey;
 }
 
 #footer{
@@ -128,4 +155,19 @@ i.pastille{
 	top: .76em;
 	width: 25px;
 	height: 25px;
+}
+
+#mouseover {
+	width: 90px; height: 90px;
+	margin: 3em;
+	background: #fff;
+	border: 20px solid #aaa;
+	border-radius: 30px;
+	transition: all 2s; /* transition when the mouse over */
+}
+
+#mouseover:hover {
+	border-color: #333;
+	transform: rotate(1080deg);
+	border-radius: 50%;
 }
