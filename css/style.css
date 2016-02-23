@@ -43,7 +43,8 @@ a:hover{
 }
 
 #wrapper1 {
-	background-image: url("../images/background/wrapper1.jpg");
+	/**background-image: url("../images/background/wrapper1.jpg");**/
+	background:url(../images/background/wrapper1.jpg) no-repeat center center;
 	height: 700px;
 	background-size:cover;
 	text-align: center;
@@ -275,7 +276,7 @@ a:hover{
 
 .container-fluid h1{
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
-	font-size: 40px;
+	font-size: 35px;
 	text-align: center;
 }
 
