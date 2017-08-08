@@ -4,16 +4,18 @@ body{
 
 h1{
 	font-size: 35px;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
-
+	text-transform: uppercase;
+	
 }
 
 h2{
-	font-size: 14px;
+	font-size: 25px;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 h3{
@@ -63,7 +65,7 @@ a:hover{
 	padding-bottom: 75px;
 	color: black;
 	/*font-family: 'Titillium Web', sans-serif;*/
-	font-family: 'Oswald', sans-serif;
+	
 }
 
 #wrapper p{
@@ -108,6 +110,7 @@ a:hover{
 .navbar-transparent .navbar-nav > li > a {
   color: rgb(0,0,0);
   font-weight: 700;
+  text-transform: uppercase;
 
 }
 
