@@ -43,7 +43,7 @@ a:hover{
 
 #wrapper1 {
 	/**background-image: url("../images/background/wrapper1.jpg");**/
-	background:url(../images/background/wrapper1.jpg) no-repeat auto center;
+	background:url(../images/background/wrapper1.jpg) no-repeat left center;
 	height: 700px;
 	background-size:cover;
 	text-align: left;
