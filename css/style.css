@@ -107,8 +107,9 @@ a:hover{
 
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
-  color: rgb(0,0,0); ;
+  color: rgb(0,0,0);
   font-weight: 700;
+  text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-transparent .navbar-brand:hover,
