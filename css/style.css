@@ -12,15 +12,14 @@ h1{
 
 h2{
 	font-size: 14px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
-	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 }
 
 h3{
 	font-size: 20px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
 }
 
 i.pastille{
@@ -47,12 +46,12 @@ a:hover{
 	background:url(../images/background/wrapper1.jpg) no-repeat center center;
 	height: 700px;
 	background-size:cover;
-	text-align: center;
+	text-align: left;
 	padding-top: 150px;
 	color: white;
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
-	/*font-family: 'Titillium Web', sans-serif;*/
-	font-family: 'Raleway', sans-serif;
+	padding-left: 50px;
+	
 }
 
 #wrapper2{
@@ -109,7 +108,7 @@ a:hover{
 .navbar-transparent .navbar-nav > li > a {
   color: rgb(0,0,0);
   font-weight: 700;
-  text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 .navbar-transparent .navbar-brand:hover,
