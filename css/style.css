@@ -1,32 +1,39 @@
+/*::-webkit-scrollbar {
+	display: none;}*/
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
 
-h1{
-	font-size: 35px;
+h2{
+	font-size: 32px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
-	letter-spacing: 1px;
 	text-transform: uppercase;
-	
-}
-
-h2{
-	font-size: 25px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 h3{
 	font-size: 20px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
+	color: white;
+	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h4 {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: black;
+	
 }
 
 i.pastille{
 	color: #1068AF;
-	font-size: 60px;
+	font-size: 40px;
 	/*	border-radius: 20px;
 	border:2px solid white;
 	padding: 10px 10px;*/
@@ -46,14 +53,15 @@ a:hover{
 #wrapper1 {
 	/**background-image: url("../images/background/wrapper1.jpg");**/
 	background:url(../images/background/wrapper1.jpg) no-repeat left center;
-	height: 700px;
+	height: 100vh;
 	background-size:cover;
-	text-align: left;
+	text-align: center;
 	padding-top: 150px;
 	color: white;
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 	padding-left: 50px;
 	padding-right: 50px;
+
 }
 
 #wrapper2{
@@ -65,7 +73,56 @@ a:hover{
 	padding-bottom: 75px;
 	color: black;
 	/*font-family: 'Titillium Web', sans-serif;*/
-	
+	/*-webkit-filter: sepia(50%);*/
+/* 	-webkit-filter: saturate(250%);
+ */}
+
+
+#wrapper3{
+	background-image: url("../images/background/wrapper3.jpg");
+	height: 100%;
+	background-size:cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 75px;
+	color: black;
+	/*font-family: 'Titillium Web', sans-serif;*/
+	/*-webkit-filter: sepia(50%);*/
+	/*-webkit-filter: saturate(250%);*/
+}
+
+
+#wrapper4{
+	background-image: url("../images/background/wrapper4.jpg");
+	height: 100%;
+	background-size:cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 75px;
+	color: black;
+	/*font-family: 'Titillium Web', sans-serif;*/
+}
+
+#wrapper5{
+	background-image: url("../images/background/wrapper5.jpg");
+	height: 100%;
+	background-size:cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 75px;
+	color: black;
+	/*font-family: 'Titillium Web', sans-serif;*/
+}
+
+#wrapper6{
+	background-image: url("../images/background/wrapper6.jpg");
+	height: 100%;
+	background-size:cover;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 75px;
+	color: black;
+	/*font-family: 'Titillium Web', sans-serif;*/
 }
 
 #wrapper p{
@@ -74,17 +131,17 @@ a:hover{
 
 
 #wrapper1 h1{
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
 	letter-spacing: 1px;
-}
-
-#wrapper1 h2{
-	font-size: 30px;
-	margin-bottom: 1em;
-	letter-spacing: 2px;
+	text-transform: uppercase;
+	
 }
 
 .spacer{
-	height: 3em;
+	height: 0.5em;
+	background-color: #333333;
 }
 
 .feature p{
@@ -103,7 +160,8 @@ a:hover{
 /* How to override the default Bootstrap navbar */
 
 .navbar-transparent {
-  background-color: rgba(250, 250, 250, 0.7);
+  background-color: rgba(250, 250, 250, 0.9);
+
 }
 
 .navbar-transparent .navbar-brand,
@@ -111,6 +169,7 @@ a:hover{
   color: rgb(0,0,0);
   font-weight: 700;
   text-transform: uppercase;
+
 
 }
 
@@ -125,6 +184,7 @@ a:hover{
 .navbar-transparent .navbar-nav > .open > a:focus {
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
+
 }
 
 .navbar-brand {
@@ -227,8 +287,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #00AADF;
-	padding: 2px 2px 5px;
+	background: /*#00AADF*/ #2581C4;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -236,8 +296,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #76C643;
-	padding: 2px 2px 5px;
+	background: /*#76C643*/ #75B729;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -245,8 +305,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #FFC000;
-	padding: 2px 2px 5px;
+	background: /*#FFC000*/ #EC6707;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -254,8 +314,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #FF307B;
-	padding: 2px 2px 5px;
+	background: /*#FF307B*/#E50056;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -263,8 +323,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #CB52E8;
-	padding: 2px 2px 5px;
+	background: /*#CB52E8*/ #954B97;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -272,8 +332,8 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: #B3B3B3;
-	padding: 2px 2px 5px;
+	background: #F7A600;
+	padding: 2px 2px 2px;
 	color: white;
 }
 
@@ -283,4 +343,3 @@ a:hover{
 	font-size: 35px;
 	text-align: center;
 }
-

@@ -32,10 +32,14 @@
 	<meta itemprop="image" content="http://www.example.com/image.jpg">
 
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-    
-    <link href='https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web:400,300,700|Open+Sans:400,700,800,300|Lora:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Titillium+Web:400,300,700|Open+Sans:400,700,800,300|Lora:400,700' rel='stylesheet' type='text/css'>
+
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,300,100' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
@@ -73,18 +77,15 @@
         	<a href="#">Accueil</a>
         </li>
         <li>
-        	<a href="#nos-competences">NOS Compétences</a>
+        	<a href="#nos-competences">Nos Compétences</a>
         </li>
         <li>
-        	<a href="#nos-realisations">Quelques Réalisations</a>
+        	<a href="#nos-realisations">Dernières Réalisations</a>
         </li>
         <li>
-        	<a href="#workshop">WORKSHOP</a>
+        	<a href="#workshop">Workshops</a>
         </li>
         
-        <li>
-        	<a href="#">FORMATIONS</a>
-        </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -101,29 +102,63 @@
 
 
 <!--<img src="images/logo.png" id="logo" width="200" alt="Binaire 01">-->
-	<div id="wrapper1">
-		<h1>Conception de Site Internet<br>Solutions Print et Informatiques</h1>
-		<h3>Etude et Devis gratuits</h3>
-		
-		<!-- Single button -->
-		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" aria-haspopup="true" aria-expanded="false" data-target="#myModal">Appelez le <strong>07 68 60 97 96</strong></button>
+<!-- BANNIERE PRINCIPALE -->
+<div id="wrapper1">
+	<h1>Conception de Site Internet<br>Solutions Print et Informatiques</h1>
+	<h3>Etude et Devis gratuits</h3><br>
+
+	<!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	  Vous avez une question ? un projet ?
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Contactez Binaire01</h4>
+	      </div>
+	      <div class="modal-body">
+	        Appelez le <strong>07 68 60 97 96</strong>
+	        ou par mail : <strong>hi@binaire01.fr</strong>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
 	</div>
 
-<!-- NOS PRESTATIONS -->
-<div class="container-fluid" id="nos-competences"><br><br>
+
+	
+	<!-- Single button -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" aria-haspopup="true" aria-expanded="false" data-target="#myModal">Appelez le <strong>07 68 60 97 96</strong></button>
+</div>
+<!-- END BANNIERE PRINCIPALE -->
+
+<div class="spacer"></div>
+
+<!-- NOS COMPETENCES -->
+<div id="nos-competences"></div>
+<div id="wrapper2">
+<div class="container-fluid">
 	<center><h2>Nos Compétences</h2></center>
+	<center><h3>Nous mettons notre expertise et notre créativité au service de vos besoins</h3></center>
 	<div class="row">
 	  <div class="col-sm-6 col-md-3 feature">
 	    <div class="thumbnail">
 	      <center><i class="fa fa-code pastille"></i></center>
 	      <div class="caption">
-	        <h3>Développement Web</h3>
+	        <h4>Conception et développement web</h4>
 	        <p>
-	        	Site vitrine, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, intuitif et unique. Simple ou Responsive selon votre budget.
+	        	Besoin d'un <span class="span1">site vitrine administrable</span> ou un <span class="span1">site e-commerce</span> ? nous développons pour vous un site ergonomique, intuitif et unique, en fonction de votre budget.
 	        </p>
-	        <p>
+	        <!--<p>
 	        	<a href="#" class="btn btn-primary" role="button">Découvrir</a>
-	        </p>
+	        </p>-->
 	      </div>
 	    </div>
 	  </div>
@@ -132,13 +167,13 @@
 	    <div class="thumbnail">
 	      <center><i class="fa fa-graduation-cap pastille"></i></center>
 	      <div class="caption">
-	        <h3>Formations sur mesure</h3>
+	        <h4>Formations et Workshops</h4>
 	        <p>
-	        	Site vitrine, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, <span class="span3">intuitif et unique</span>. Simple ou Responsive selon votre budget.
+	        	Site vitrine, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, <span class="span2">intuitif et unique</span>. Simple ou Responsive selon votre budget.
 	        </p>
-	        <p>
+	        <!--<p>
 	        	<a href="#" class="btn btn-success" role="button">Découvrir</a>
-	        </p>
+	        </p>-->
 	      </div>
 	    </div>
 	  </div>
@@ -147,13 +182,13 @@
 	    <div class="thumbnail">
 	      <center><i class="fa fa-print pastille"></i></center>
 	      <div class="caption">
-	        <h3>Imprimés et Dépliants</h3>
+	        <h4>Imprimés et Dépliants</h4>
 	        <p>
-	        	<span class="span2">Site vitrine</span>, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, intuitif et unique. Simple ou Responsive selon votre budget.
+	        	<span class="span3">Site vitrine</span>, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, intuitif et unique. Simple ou Responsive selon votre budget.
 	        </p>
-	        <p>
+	        <!--<p>
 	        	<a href="#" class="btn btn-warning" role="button">Découvrir</a>
-	        </p>
+	        </p>-->
 	      </div>
 	    </div>
 	  </div>
@@ -162,26 +197,76 @@
 	    <div class="thumbnail">
 	      <center><i class="fa fa-wrench pastille"></i></center>
 	      <div class="caption">
-	        <h3>Solutions Informatiques</h3>
+	        <h4>Solutions Informatiques</h4>
 	        <p>
-	        	<span class="span1">Site vitrine</span>, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, intuitif et unique. Simple ou Responsive selon votre budget.
+	        	<span class="span4">Site vitrine</span>, administrable, ou e-commerce. Nous développons pour vous un site ergonomique, intuitif et unique. Simple ou Responsive selon votre budget.
 	        </p>
-	        <p>
+	        <!--<p>
 	        	<a href="#" class="btn btn-danger" role="button">Découvrir</a>
-	        </p>
+	        </p>-->
 	      </div>
 	    </div>
 	  </div>
 
 	</div>
 </div>
-<!-- END NOS SERVICES -->
+</div>
+<!-- END NOS COMPETENCES -->
 
+<div class="spacer"></div>
 
-<!--<div class="spacer"></div>-->
+<div id="wrapper3">
+	<div class="container-fluid">
+	<center><h2>Votre projet en 4 étapes </h2></center>
+		<div class="row">
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-3">
+				<div class="thumbnail">
+					<img src="images/meet-rencontre.svg" alt="" width="50">
+					<div class="caption">
+						<p class="span1">Nous nous rencontrons</br></p>
+						<p>et déterminons ensemble vos besoins et la faisabilité de votre projet.</p>
+					</div>
+				</div>
+			</div>
 
-<div id="wrapper2">
-<center><h2>Votre projet en 6 étapes </h2></center>
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-3">
+				<div class="thumbnail">
+					<img src="images/etude-budget.svg" alt="" width="50">
+					<div class="caption">
+						<p class="span2">Nous établissons un devis sur-mesure</p>
+						<p>et vous soumettons différentes propositions.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-3">
+				<div class="thumbnail">
+					<img src="images/proposal-propositions.svg" alt="" width="50">
+					<div class="caption">
+						<p class="span3">Nous réalisons votre demande</p>
+						<p>en tenant compte de vos objectifs et délais.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-3">
+				<div class="thumbnail">
+					<img src="images/delivery-livraison.svg" alt="" width="50">
+					<div class="caption">
+						<p class="span4">Nous validons ensemble le rendu final</p>
+						<p>et livrons votre projet en temps et en heure afin que vous puissiez l’exploiter.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="spacer"></div>
+
+<div id="wrapper4">
+<center><h2>Ils nous font confiance et vous le disent </h2></center>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
@@ -247,10 +332,13 @@
 	</div>
 </div>
 
+<div class="spacer"></div>
 
-<!-- Quelques réalisations -->
-<div class="container-fluid" id="nos-realisations"><br><br>
-	<center><h2>Quelques unes de nos réalisations</h2></center>
+<!-- Dernières réalisations -->
+<div id="nos-realisations"></div>
+<div id="wrapper5">
+<div class="container-fluid">
+	<center><h2>DERNIÈRES RÉALISATIONS</h2></center>
 	<div class="row">
 	  <div class="col-sm-6 col-md-3 feature">
 	    <div class="thumbnail">
@@ -311,14 +399,18 @@
 	      </div>
 	    </div>
 	  </div>
-
 	</div>
+</div>
 </div>
 <!-- END Réalisation -->
 
+<div class="spacer"></div>
+
 <!-- WorkShop -->
-<div class="container-fluid" id="workshop"><br><br>
-	<center><h2>Formations // Workshop</h2></center>
+<div id="workshop"></div>
+<div id="wrapper6">
+<div class="container-fluid">
+	<center><h2>Formations // Workshops </h2></center>
 	<div class="row">
 	  <div class="col-sm-6 col-md-3 feature">
 	    <div class="thumbnail">
@@ -382,8 +474,8 @@
 
 	</div>
 </div>
+</div>
 <!-- END Workshop -->
-
 
 
 <div id="footer1">
@@ -475,7 +567,13 @@
 
     <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
 
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
