@@ -189,10 +189,10 @@ a:hover{
 	padding: 5px 15px;
 }
 
-
+/* ======= Règles CSS ======= */
 #footer1{
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.8)
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 #footer1 p{
@@ -202,15 +202,15 @@ a:hover{
 	text-transform: uppercase;
 }
 
-#footer1 h1{
+#footer1 h2{
 	color: white;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 }
 
-#footer1 h1:hover{
+#footer1 h2:hover{
 	color: grey;
 }
 
@@ -340,4 +340,19 @@ a:hover{
 	text-shadow:2px 2px 5px rgba(0, 0, 0, 0.5);
 	font-size: 35px;
 	text-align: center;
+}
+
+#chat div{
+	background-color:  rgba(0, 0, 0, 0.3);
+	border: none;
+	padding: 15px;
+
+}
+
+
+#titre {
+	background-color:  rgba(0, 0, 0, 0.3);
+	border: none;
+	padding: 15px 15px;
+
 }
