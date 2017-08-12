@@ -116,11 +116,12 @@ a:hover{
 #wrapper5{
 	background-image: url("../images/background/wrapper5.jpg");
 	height: 100%;
+	/* Effet Parallax*/
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-	background-size:cover;
+    /* Fin Effet Parallax*/
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
@@ -135,7 +136,6 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-	background-size:cover;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
