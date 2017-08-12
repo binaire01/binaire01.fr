@@ -54,6 +54,9 @@ a:hover{
 	/**background-image: url("../images/background/wrapper1.jpg");**/
 	background:url(../images/background/wrapper1.jpg) no-repeat left center;
 	height: 100vh;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 	background-size:cover;
 	text-align: center;
 	padding-top: 150px;
@@ -65,7 +68,10 @@ a:hover{
 #wrapper2{
 	background-image: url("../images/background/wrapper2.jpg");
 	height: 100%;
-	background-size:cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
@@ -79,7 +85,10 @@ a:hover{
 #wrapper3{
 	background-image: url("../images/background/wrapper3.jpg");
 	height: 100%;
-	background-size:cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
@@ -93,7 +102,10 @@ a:hover{
 #wrapper4{
 	background-image: url("../images/background/wrapper4.jpg");
 	height: 100%;
-	background-size:cover;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
@@ -104,6 +116,10 @@ a:hover{
 #wrapper5{
 	background-image: url("../images/background/wrapper5.jpg");
 	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 	background-size:cover;
 	text-align: center;
 	padding-top: 40px;
@@ -115,6 +131,10 @@ a:hover{
 #wrapper6{
 	background-image: url("../images/background/wrapper6.jpg");
 	height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 	background-size:cover;
 	text-align: center;
 	padding-top: 40px;
