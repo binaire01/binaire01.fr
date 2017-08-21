@@ -263,7 +263,7 @@ a:hover{
     transfom: scale(1.4);
        }
    30% {
-    transform: scale(1.6);
+    transform: scale(1.8);
     transition-property: transform;
     transition-duration: 3s;
        }
@@ -273,7 +273,7 @@ a:hover{
 	margin: 0 -2px;
 	position: relative;
 	z-index: 3;
-	top: .76em;
+	top: .65em;
 	width: 25px;
 	height: 25px;
 }
