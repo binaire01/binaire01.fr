@@ -304,7 +304,7 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: /*#00AADF*/ #2581C4;
+	background: /*#00AADF*/ /*#2581C4*/ #006CFA ;
 	padding: 2px 2px 2px;
 	color: white;
 }
