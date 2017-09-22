@@ -66,7 +66,8 @@ a:hover{
 }
 
 #wrapper2{
-	background-image: url("../images/background/wrapper2.jpg");
+	/*background-image: url("../images/background/wrapper2.jpg");*/
+	background-color: #2581C4;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -75,7 +76,7 @@ a:hover{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
-	color: black;
+	/*color: black;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 	/*-webkit-filter: sepia(50%);*/
 /* 	-webkit-filter: saturate(250%);
@@ -83,7 +84,8 @@ a:hover{
 
 
 #wrapper3{
-	background-image: url("../images/background/wrapper3.jpg");
+	/*background-image: url("../images/background/wrapper3.jpg");*/
+	background-color: #E50056;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -92,7 +94,7 @@ a:hover{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
-	color: black;
+	/*color: black;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 	/*-webkit-filter: sepia(50%);*/
 	/*-webkit-filter: saturate(250%);*/
@@ -100,7 +102,8 @@ a:hover{
 
 
 #wrapper4{
-	background-image: url("../images/background/wrapper4.jpg");
+	/*background-image: url("../images/background/wrapper4.jpg");*/
+	background-color: #954B98;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -109,12 +112,17 @@ a:hover{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
-	color: black;
+	/*color: black;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 }
 
+#textjustify {
+	text-align: justify;
+}
+
 #wrapper5{
-	background-image: url("../images/background/wrapper5.jpg");
+	/*background-image: url("../images/background/wrapper5.jpg");*/
+	background-color: #F7A600;
 	height: 100%;
 	/* Effet Parallax*/
 	background-attachment: fixed;
@@ -125,12 +133,13 @@ a:hover{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
-	color: black;
+	/*color: black;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 }
 
 #wrapper6{
-	background-image: url("../images/background/wrapper6.jpg");
+	/*background-image: url("../images/background/wrapper6.jpg");*/
+	background-color: #76B729;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -139,7 +148,7 @@ a:hover{
 	text-align: center;
 	padding-top: 40px;
 	padding-bottom: 75px;
-	color: black;
+	/*color: black;*/
 	/*font-family: 'Titillium Web', sans-serif;*/
 }
 
@@ -158,9 +167,11 @@ a:hover{
 }
 
 .spacer{
-	height: 0.1em;
+	height: 0.2em;
 	background-color: #333333;
+
 }
+
 
 .feature p{
 	font-weight: 400;
@@ -375,4 +386,3 @@ a:hover{
 	padding: 15px 15px;
 
 }
-
