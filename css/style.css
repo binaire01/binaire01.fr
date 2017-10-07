@@ -6,7 +6,6 @@ body{
 }
 
 h2{
-	/*font-size: 32px;*/
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -15,7 +14,6 @@ h2{
 }
 
 h3{
-	/*font-size: 20px;*/
 	font-family: 'Raleway', sans-serif;
 	font-weight: 400;
 	color: white;
@@ -23,7 +21,6 @@ h3{
 }
 
 h4 {
-	/*font-size: 18px;*/
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	color: black;
@@ -67,7 +64,7 @@ a:hover{
 
 #wrapper2{
 	/*background-image: url("../images/background/wrapper2.jpg");*/
-	background-color: #2581C4;
+	background-color: /*#2581C4*/ #0099cc;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -85,7 +82,7 @@ a:hover{
 
 #wrapper3{
 	/*background-image: url("../images/background/wrapper3.jpg");*/
-	background-color: #E50056;
+	background-color: #ff3399;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -103,7 +100,7 @@ a:hover{
 
 #wrapper4{
 	/*background-image: url("../images/background/wrapper4.jpg");*/
-	background-color: #954B98;
+	background-color: #ddca07;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -122,7 +119,7 @@ a:hover{
 
 #wrapper5{
 	/*background-image: url("../images/background/wrapper5.jpg");*/
-	background-color: #F7A600;
+	background-color: #76B729;
 	height: 100%;
 	/* Effet Parallax*/
 	background-attachment: fixed;
@@ -139,7 +136,7 @@ a:hover{
 
 #wrapper6{
 	/*background-image: url("../images/background/wrapper6.jpg");*/
-	background-color: #76B729;
+	background-color: #663399 ;
 	height: 100%;
 	background-attachment: fixed;
     background-position: center;
@@ -176,7 +173,6 @@ a:hover{
 .feature p{
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
-	/*font-family: 'Oswald', sans-serif;*/
 	font-size: 15px;
 	line-height: 22px;
 }
@@ -311,11 +307,21 @@ a:hover{
 
 }
 
+
+#wrapper2 .span1{
+	font-weight: 700;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	background: black;
+	padding: 2px 2px 2px;
+	color: white;
+}
+
 .span1{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: /*#00AADF*/ /*#2581C4*/ #006CFA ;
+	background: #0099cc ;
 	padding: 2px 2px 2px;
 	color: white;
 }
@@ -324,7 +330,7 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: /*#76C643*/ #75B729;
+	background: #75B729;
 	padding: 2px 2px 2px;
 	color: white;
 }
@@ -333,7 +339,7 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: /*#FFC000*/ #EC6707;
+	background: #EC6707;
 	padding: 2px 2px 2px;
 	color: white;
 }
@@ -351,7 +357,7 @@ a:hover{
 	font-weight: 700;
 	font-size: 13px;
 	font-family: 'Open Sans', sans-serif;
-	background: /*#CB52E8*/ #954B97;
+	background: #954B97;
 	padding: 2px 2px 2px;
 	color: white;
 }
