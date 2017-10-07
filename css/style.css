@@ -391,4 +391,6 @@ a:hover{
 	border: none;
 	padding: 15px 15px;
 
+}.thumbnail{
+	min-height: 375px;
 }
