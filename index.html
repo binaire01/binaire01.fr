@@ -48,8 +48,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="dist/morphext.css">
-
-
+	
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -254,6 +253,8 @@
 <div id="wrapper4">
 <center><h2>Ils nous font confiance</h2></center>
 <center><h3>et vous le disent</h3></center>
+<div class="sticker example-1"></div>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-4 col-md-5">
@@ -607,6 +608,17 @@ $("#js-rotating").Morphext({
     }
 });
 
+</script>
+
+<script src="js/sticker.min.js"></script>
+<script type="text/javascript">
+    window.onload = function() {
+        Sticker.init('.sticker');
+    }
+</script>
+
+<script>
+	Sticker.init('.sticker');
 </script>
 
   </body>

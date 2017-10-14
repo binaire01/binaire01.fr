@@ -401,3 +401,22 @@ a:hover{
 }
 
 
+.sticker {
+width: 180px;
+height: 180px;
+}
+
+// add image
+.example-1 .sticker-img {
+background-image: url(../images/sebastiano-moovin-transports.jpg);
+}
+
+// add color
+.example-2 .sticker-img {
+background-color: #ff4a85;
+}
+
+// change shadow opacity
+.example-2 .sticker-shadow {
+opacity: 0.6;
+}
